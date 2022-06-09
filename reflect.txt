@@ -1,0 +1,26 @@
+==================================
+Name -Gurpinder Singh
+Student ID -140515206
+Email -  gsingh944@myseneca.ca
+
+===================================
+Q-) Explain the concepts that you learn after completing this workshop?
+Ans) Programming is not an easy. I have a keen interest in programming but sometimes I stuck on 
+        various then I use many different books and websites to solve that issue.
+        In this Workshop I learn plethora of concepts:
+        1)A class's member functions can be defined either outside or inside the class specification. The function body is same in both situations, 
+          but the function header is different. 
+        2) If you want to define a member function outside of a class, you must include the function declaration (function prototype) in the class definition. 
+           Like any other function, the member function is declared inside the class. This declaration tells the compiler that the function is a member of the class 
+          but was defined outside of it. A member function must be defined (outside the class) in the programme after it is declared inside the class.
+       3)A class's member function can also be specified within the class. The class name and the scope resolution operator are not mentioned in the function header when a member function is defined inside the class. 
+          Furthermore, member functions specified within a class declaration are inline functions by default.
+
+Q-) Explain the difficulties that you face in this workshop?
+Ans) I face several difficulties on working with this workshop: 
+        1) In the PairSummable class, I utilised two static variables: one is an unknown typed variable that stores the value, and the other is a size t type variable that stores the minimum field width.
+           Because static variables cannot be initialised within a class, I had to specify them outside of the class. Another issue is that I needed to initialise a "initial" variable that didn't know what type it was. 
+           Furthermore, this variable serves as the default value in the PairSummable(const K& key, const V& value = initial) argument.
+       2) I utilised template class in all header files. To put it another way, I've declared every function in every header file.
+          The explanation is simple: if I create a templet class in the header file and define functions in the cpp file, as in prior workshops, the compiler will fail to build because it does not recognise the data type.
+           A template isn't a function or a class. As a result, the template's declaration and definition should be implemented at the same time so that the compiler can read it.
